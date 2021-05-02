@@ -1,0 +1,14 @@
+// $motion=linear
+@function transition($time, $motion) {
+  @return all $time $motion;
+}
+
+// primary color opacity
+@function primary_color_opacity($opacity) {
+  @return rgba($primary_color, $opacity);
+}
+
+// primary color opacity
+@function color_opacity($color, $opacity) {
+  @return rgba($color, $opacity);
+}

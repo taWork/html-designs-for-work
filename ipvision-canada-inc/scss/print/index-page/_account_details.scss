@@ -1,0 +1,115 @@
+.account_details {
+  margin-top: 100px;
+  .header {
+    @include text_property(
+      $font_family_primary,
+      $font_size: $font_size_subtitle_16,
+      $font_weight: $font_weight_semi_bold,
+      $lh: $lh_sm,
+      $text_color: $text_color_secondary
+    );
+  }
+
+  .main_table {
+    width: 100%;
+    border: 1px solid $black_color;
+    &_thead {
+      tr {
+        th {
+          @include text_property(
+            $font_family_primary,
+            $font_size: $font_size_subtitle_16,
+            $font_weight: $font_weight_normal,
+            $lh: $lh_sm,
+            $text_color: $text_color_secondary
+          );
+        }
+      }
+
+      &_first {
+        th {
+          padding: 10px 0px;
+        }
+        .name {
+          width: 33%;
+        }
+        .date {
+          width: 33%;
+        }
+        .value {
+          width: 33%;
+        }
+
+        .input_date {
+          text-align: center;
+          border-color: transparent;
+        }
+        .input_value {
+          text-align: right;
+          border-color: transparent;
+        }
+      }
+      border: 1px solid $black_color;
+    }
+
+    .inner_table_left {
+      width: 56%;
+      &_thead {
+        .blank {
+          width: 30%;
+        }
+        .pieces {
+          width: 15%;
+        }
+        .hours {
+          width: 15%;
+        }
+        .period {
+          width: 20%;
+        }
+        .ytd {
+          width: 20%;
+        }
+        .input_ytd {
+          text-align: right;
+          border-color: transparent;
+          width: 100%;
+        }
+      }
+      &_tbody {
+        tr {
+          td {
+            padding-bottom: 15px;
+          }
+        }
+      }
+    }
+    .inner_table_right {
+      width: 44%;
+      border-left: 1px solid $black_color;
+      &_thead {
+        .blank {
+          width: 33%;
+        }
+        .period {
+          width: 33%;
+        }
+        .ytd {
+          width: 33%;
+        }
+      }
+      &_tbody {
+        tr {
+          &.padding_bottom {
+            td {
+              padding-bottom: 15px;
+            }
+          }
+        }
+        .input {
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+*,
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #424242;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.information .bank_info h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #424242;
+  margin-bottom: 0;
+}
+.information .bank_info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #424242;
+}
+.information .amount {
+  margin-top: 65px;
+}
+.information .user_detail {
+  margin-top: 50px;
+}
+.information .cheque {
+  margin-top: 55px;
+}
+.information .cheque_key ul li {
+  margin-bottom: 10px;
+}
+.information .cheque_value ul li {
+  margin-bottom: 10px;
+}
+.information .cheque_value ul li .input {
+  text-align: right;
+  border-color: transparent;
+}
+.information .cheque_value ul li p {
+  margin-bottom: 0;
+}
+.information .cheque_value ul li p.date {
+  letter-spacing: 8px;
+  direction: rtl;
+  text-indent: -8px;
+}
+.information .cheque_value ul li p.format {
+  letter-spacing: 6px;
+  direction: rtl;
+  text-indent: -8px;
+}
+
+.account_details {
+  margin-top: 100px;
+}
+.account_details .header {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #424242;
+}
+.account_details .main_table {
+  width: 100%;
+  border: 1px solid #000000;
+}
+.account_details .main_table_thead {
+  border: 1px solid #000000;
+}
+.account_details .main_table_thead tr th {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #424242;
+}
+.account_details .main_table_thead_first th {
+  padding: 10px 0px;
+}
+.account_details .main_table_thead_first .name {
+  width: 33%;
+}
+.account_details .main_table_thead_first .date {
+  width: 33%;
+}
+.account_details .main_table_thead_first .value {
+  width: 33%;
+}
+.account_details .main_table_thead_first .input_date {
+  text-align: center;
+  border-color: transparent;
+}
+.account_details .main_table_thead_first .input_value {
+  text-align: right;
+  border-color: transparent;
+}
+.account_details .main_table .inner_table_left {
+  width: 56%;
+}
+.account_details .main_table .inner_table_left_thead .blank {
+  width: 30%;
+}
+.account_details .main_table .inner_table_left_thead .pieces {
+  width: 15%;
+}
+.account_details .main_table .inner_table_left_thead .hours {
+  width: 15%;
+}
+.account_details .main_table .inner_table_left_thead .period {
+  width: 20%;
+}
+.account_details .main_table .inner_table_left_thead .ytd {
+  width: 20%;
+}
+.account_details .main_table .inner_table_left_thead .input_ytd {
+  text-align: right;
+  border-color: transparent;
+  width: 100%;
+}
+.account_details .main_table .inner_table_left_tbody tr td {
+  padding-bottom: 15px;
+}
+.account_details .main_table .inner_table_right {
+  width: 44%;
+  border-left: 1px solid #000000;
+}
+.account_details .main_table .inner_table_right_thead .blank {
+  width: 33%;
+}
+.account_details .main_table .inner_table_right_thead .period {
+  width: 33%;
+}
+.account_details .main_table .inner_table_right_thead .ytd {
+  width: 33%;
+}
+.account_details .main_table .inner_table_right_tbody tr.padding_bottom td {
+  padding-bottom: 15px;
+}
+.account_details .main_table .inner_table_right_tbody .input {
+  border-color: transparent;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #000000;
+}

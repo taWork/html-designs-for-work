@@ -1,0 +1,66 @@
+.information {
+  .bank_info {
+    h2 {
+      @include text_property(
+        $font_family_primary,
+        $font_size: $font_size_header_h5_30,
+        $font_weight: $font_weight_bold,
+        $lh: $lh_sm,
+        $text_color: $text_color_secondary
+      );
+      margin-bottom: 0;
+    }
+    p {
+      @include text_property(
+        $font_family_primary,
+        $font_size: $font_size_body_14,
+        $font_weight: $font_weight_bold,
+        $lh: $lh_sm,
+        $text_color: $text_color_secondary
+      );
+    }
+  }
+
+  .amount {
+    margin-top: 65px;
+  }
+
+  .user_detail {
+    margin-top: 50px;
+  }
+
+  .cheque {
+    margin-top: 55px;
+    &_key {
+      ul {
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    &_value {
+      ul {
+        li {
+          margin-bottom: 10px;
+          .input {
+            text-align: right;
+            border-color: transparent;
+          }
+          p {
+            margin-bottom: 0;
+            &.date {
+              letter-spacing: 8px;
+              direction: rtl;
+              text-indent: -8px;
+            }
+            &.format {
+              letter-spacing: 6px;
+              direction: rtl;
+              text-indent: -8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

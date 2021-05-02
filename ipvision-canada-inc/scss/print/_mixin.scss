@@ -1,0 +1,14 @@
+// text common property
+@mixin text_property(
+  $font_family: $font_family_primary,
+  $font_size: $font_size_subtitle_16,
+  $font_weight: $font_weight_normal,
+  $lh: $lh_sm,
+  $text_color: $text_color_secondary
+) {
+  font-family: $font_family;
+  font-size: $font_size;
+  font-weight: $font_weight;
+  line-height: $lh;
+  color: $text_color;
+}
